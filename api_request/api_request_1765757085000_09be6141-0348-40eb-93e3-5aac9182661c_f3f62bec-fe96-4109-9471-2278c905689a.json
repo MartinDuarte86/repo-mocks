@@ -1,0 +1,77 @@
+{
+    "date": "2025-12-15T00:04:45.400000Z",
+    "path": "/api/integration/offers",
+    "method": "GET",
+    "full_url": "http://coreapp-mushu-prod.cargofive.com/api/integration/offers?brands=cmaspoton&departureDate=2025-12-15&destinationId=951&equipmentSizeType=1x40DRYx15000%2C1x40HCx15000&excludeDestination=1&excludeOrigin=1&imo=0&impersonate=0&originId=31&ow=0&search_id=170a1993-8fab-417c-9df1-6a707b4a1320&uemail=exportsea%40megafreight.com.au",
+    "domain": "coreapp-mushu-prod.cargofive.com",
+    "transaction_id": "09be6141-0348-40eb-93e3-5aac9182661c",
+    "request_id": "f3f62bec-fe96-4109-9471-2278c905689a",
+    "query_params": {
+        "brands": "cmaspoton",
+        "departureDate": "2025-12-15",
+        "imo": "0",
+        "ow": "0",
+        "impersonate": "0",
+        "excludeOrigin": "1",
+        "excludeDestination": "1",
+        "originId": "31",
+        "destinationId": "951",
+        "uemail": "exportsea@megafreight.com.au",
+        "equipmentSizeType": "1x40DRYx15000,1x40HCx15000",
+        "search_id": "170a1993-8fab-417c-9df1-6a707b4a1320"
+    },
+    "body": [],
+    "context": {
+        "user_agent": "axios/1.12.2",
+        "referrer": null,
+        "accept": "application/json, text/plain, */*",
+        "accept_language": null,
+        "user_id": 2647,
+        "delegation_id": 130,
+        "customer_id": 130,
+        "provider_id": 1372
+    },
+    "headers": {
+        "accept-encoding": [
+            "gzip, compress, deflate, br"
+        ],
+        "user-agent": [
+            "axios/1.12.2"
+        ],
+        "accept": [
+            "application/json, text/plain, */*"
+        ],
+        "x-amzn-trace-id": [
+            "Root=1-693f509d-04df1a00015e46544aeaa5fd"
+        ],
+        "host": [
+            "coreapp-mushu-prod.cargofive.com"
+        ],
+        "x-forwarded-port": [
+            "443"
+        ],
+        "x-forwarded-proto": [
+            "https"
+        ],
+        "x-forwarded-for": [
+            "3.126.3.123"
+        ]
+    },
+    "ip": "172.31.33.193",
+    "user_id": 2647,
+    "delegation_id": 130,
+    "customer_id": 130,
+    "provider_id": 1372,
+    "qp_brands": "cmaspoton",
+    "qp_departureDate": "2025-12-15",
+    "qp_imo": "0",
+    "qp_ow": "0",
+    "qp_impersonate": "0",
+    "qp_excludeOrigin": "1",
+    "qp_excludeDestination": "1",
+    "qp_originId": "31",
+    "qp_destinationId": "951",
+    "qp_uemail": "exportsea@megafreight.com.au",
+    "qp_equipmentSizeType": "1x40DRYx15000,1x40HCx15000",
+    "qp_search_id": "170a1993-8fab-417c-9df1-6a707b4a1320"
+}

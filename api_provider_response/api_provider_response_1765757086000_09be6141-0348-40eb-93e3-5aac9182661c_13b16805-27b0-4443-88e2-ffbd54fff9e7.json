@@ -1,0 +1,80 @@
+{
+    "transaction_id": "09be6141-0348-40eb-93e3-5aac9182661c",
+    "request_id": "13b16805-27b0-4443-88e2-ffbd54fff9e7",
+    "response": {
+        "access_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6InNpZ25pbmctYXV0aC0yMDIyIiwieDV0IjoiX3diQWNXS0pNVGw4WUFET1h3RzJDbzZlOUxJIiwicGkuYXRtIjoiMiJ9.eyJzY29wZSI6WyJpbnN0YW50cXVvdGU6d3JpdGU6YmUiXSwiY2xpZW50X2lkIjoiYmVhcHAtY2FyZ29maXZlIiwiZXhwIjoxNzY1NzU3Mzg2fQ.WUmGNg71fk3KYckKHjSuFr9zRxf6JZ4lmmspH8VdB2XKSYbojceyfU-_pI3E3vAgPwS_7tqjHNQ97SB4Twwz2VHuWwAAMfzObiajfdjgFSPOarrYbLXGumbc60hfPidhHZvBa2bNHCDLhdhrKqcMh0CuSC2hzyJAG1P4fKr_4icWYLEv5sMBNfxWdk26eTrHdTgsnFvYTWH6XvKVPUL9eH69UKCLyLZx_n4bx4k0J_7LvFl_hk-9T9mWSP1Y9zEaY3DHPwXiNOGRQuE9ZdKMDxL5ipW9HtRP7L09LPzIdHOX0n_T1mb06skfpnP0SG7nA16TvjZqxxKdU-Qg0hrkgg",
+        "token_type": "Bearer",
+        "expires_in": 299
+    },
+    "date": "2025-12-15T00:04:46.828000Z",
+    "headers": {
+        "Date": [
+            "Mon, 15 Dec 2025 00:04:46 GMT"
+        ],
+        "Content-Type": [
+            "application/json"
+        ],
+        "Transfer-Encoding": [
+            "chunked"
+        ],
+        "Connection": [
+            "keep-alive"
+        ],
+        "Set-Cookie": [
+            "dtCookie=v_4_srv_1_sn_61293B5165B90EB7C14A4AB7CDB10258_perc_100000_ol_0_mul_1_app-3Ac276214421dd42e9_0_rcs-3Acss_1; Path=/; Domain=.cma-cgm.com",
+            "PF=Oa2PT8vLONjQM3acVfvWbP; Path=/; Secure; HttpOnly; SameSite=None"
+        ],
+        "Server-Timing": [
+            "dtRpid;desc=\"840803928\", dtSInfo;desc=\"0\""
+        ],
+        "X-OneAgent-JS-Injection": [
+            "true"
+        ],
+        "Referrer-Policy": [
+            "origin"
+        ],
+        "Content-Security-Policy": [
+            "frame-ancestors 'self' https://*.cma-cgm.com ;"
+        ],
+        "Cache-Control": [
+            "no-cache, no-store"
+        ],
+        "Pragma": [
+            "no-cache"
+        ],
+        "Expires": [
+            "Thu, 01 Jan 1970 00:00:00 GMT"
+        ],
+        "cf-cache-status": [
+            "DYNAMIC"
+        ],
+        "Server": [
+            "cloudflare"
+        ],
+        "CF-RAY": [
+            "9ae1af7ffb08af69-FRA"
+        ],
+        "alt-svc": [
+            "h3=\":443\"; ma=86400"
+        ]
+    },
+    "duration": 231,
+    "status": 200,
+    "context": {
+        "user_agent": "GuzzleHttp/7",
+        "content_type": "application/x-www-form-urlencoded",
+        "accept": null,
+        "customer_id": 130,
+        "user_id": 2647,
+        "delegation_id": 130,
+        "provider_id": 1372
+    },
+    "message": null,
+    "code": null,
+    "metadata": {
+        "original_size": 632,
+        "stored_size": 632,
+        "cached_in_redis": true,
+        "cache_key": "stream_cache:09be6141-0348-40eb-93e3-5aac9182661c:13b16805-27b0-4443-88e2-ffbd54fff9e7"
+    }
+}
