@@ -1,0 +1,200 @@
+{
+	"data": [
+		{
+			"port_origin_id": 12345,
+			"location_origin_id": null,
+			"port_destination_id": 67890,
+			"location_destination_id": null,
+			"transit_time": 25,
+			"service_type_id": null,
+			"inclusions_freight": "Freight includes ocean transportation",
+			"exclusions_freight": "Freight excludes inland transportation",
+			"commodities": [
+				{
+					"code": "FAK",
+					"name": "Freight All Kinds"
+				}
+			],
+			"remarks": "Subject to space availability",
+			"contracts": [
+				{
+					"carrier_offer_id": "12345",
+					"additional_data": {
+						"link": "https://example.com/offer/12345"
+					},
+					"valid_from": "2024-01-01T00:00:00Z",
+					"valid_to": "2024-12-31T23:59:59Z"
+				}
+			],
+			"providers": {
+				"id": 1,
+				"name": "Eculine",
+				"code": "ECULINE",
+				"uuid": "550e8400-e29b-41d4-a716-446655440000",
+				"standard_code": null,
+				"standard_code_type": null,
+				"status": true,
+				"parent_id": null,
+				"is_api_provider": true,
+				"provider_type_id": 1,
+				"delegation_id": null,
+				"api_provider": {
+					"id": 1,
+					"is_inland_provider": false,
+					"url": "https://api.eculine.com",
+					"provider_id": 1
+				}
+			},
+			"charges": [
+				{
+					"payment_term": "PREPAID",
+					"remarks": null,
+					"inclusions": null,
+					"service_name": "Ocean Freight",
+					"uuid": "charge-uuid-123",
+					"charge_type_id": 1,
+					"commodity_id": null,
+					"currency_id": 1,
+					"provider_id": 1,
+					"rate_basis_id": 1,
+					"surcharge_id": 1,
+					"currencies": {
+						"id": 1,
+						"name": "US Dollar",
+						"code": "USD"
+					},
+					"charge_types": {
+						"id": 1,
+						"name": "Ocean Freight"
+					},
+					"surcharges": {
+						"id": 1,
+						"code": "OCF",
+						"name": "Ocean Freight",
+						"uuid": "surcharge-uuid-123",
+						"parent_id": null,
+						"display_name": "Ocean Freight",
+						"is_arbitrary": false,
+						"is_hazardous": false,
+						"is_overweight": false,
+						"surcharge_table_uuid": "table-uuid-123"
+					},
+					"rate_basis": {
+						"id": 1,
+						"name": "Per Weight",
+						"code": "W",
+						"display_name": "Per Weight",
+						"shipment_group_id": null
+					},
+					"amount_charges": [
+						{
+							"price": 150.50,
+							"minimum": 100.00,
+							"maximum": null,
+							"weight_ratio": 1.0,
+							"weight_unit": "KG",
+							"measure_unit": "M3",
+							"measure_ratio": 1.0,
+							"is_same_value": false,
+							"scale_type_details": null,
+							"included_charges": []
+						}
+					]
+				}
+			],
+			"schedules": [
+				{
+					"from_point": {
+						"code": "CNSHA",
+						"name": "SHANGHAI",
+						"facility": null,
+						"port": {
+							"id": 12345,
+							"name": "Shanghai",
+							"code": "CNSHA",
+							"display_name": "Shanghai, China",
+							"coordinates": "31.2304,121.4737",
+							"zipcode": null,
+							"uuid": "port-uuid-123",
+							"source_id": null,
+							"country_id": 44,
+							"parent_id": null,
+							"place_type_id": 1,
+							"region_id": null,
+							"subdivision_id": null,
+							"country": {
+								"id": 44,
+								"name": "China",
+								"code": "CN",
+								"uuid": "country-uuid-123"
+							},
+							"options": []
+						},
+						"etd": "2024-12-15T10:00:00Z",
+						"etd_gmt": "2024-12-15, 10:00:00",
+						"eta": null,
+						"eta_gmt": null,
+						"time_zone": "Asia/Shanghai",
+						"is_via": false
+					},
+					"to_point": {
+						"code": "ESBCN",
+						"name": "BARCELONA",
+						"facility": null,
+						"port": {
+							"id": 67890,
+							"name": "Barcelona",
+							"code": "ESBCN",
+							"display_name": "Barcelona, Spain",
+							"coordinates": "41.3851,2.1734",
+							"zipcode": null,
+							"uuid": "port-uuid-456",
+							"source_id": null,
+							"country_id": 195,
+							"parent_id": null,
+							"place_type_id": 1,
+							"region_id": null,
+							"subdivision_id": null,
+							"country": {
+								"id": 195,
+								"name": "Spain",
+								"code": "ES",
+								"uuid": "country-uuid-456"
+							},
+							"options": []
+						},
+						"etd": null,
+						"etd_gmt": null,
+						"eta": "2025-01-10T14:00:00Z",
+						"eta_gmt": "2025-01-10, 14:00:00",
+						"time_zone": "Europe/Madrid",
+						"is_via": false
+					},
+					"transport": {
+						"reference": "VESSEL-123",
+						"type_of_transport": "MVS",
+						"reference_type": "VESSEL",
+						"vehicle_name": "MSC VIRGINIA",
+						"voyage_reference": "032W",
+						"service_name": "Mediterranean Service",
+						"transit_time": 25
+					},
+					"deadlines": [
+						{
+							"name": "SI Document Cut-off",
+							"code": "SI_DOC",
+							"deadline": "2024-12-13 18:00:00"
+						},
+						{
+							"name": "VGM Cut-off",
+							"code": "VGM",
+							"deadline": "2024-12-13 12:00:00"
+						}
+					]
+				}
+			]
+		}
+	],
+	"code": "OFFERS_AVAILABLE",
+	"transaction_id": "51a8ea8e-ddd7-41e1-b544-07b774b83212"
+}

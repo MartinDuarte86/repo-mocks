@@ -1,0 +1,43 @@
+{
+    "transaction_id": "1ba78494-f6ee-4ba2-abe4-87593b9cf816",
+    "request_id": "16677279-8895-4dbb-96a1-d31d190a1f99",
+    "response": {
+        "data": [],
+        "code": "NO_OFFERS_AVAILABLE",
+        "reason": {
+            "message": "No offers available",
+            "provider_response": []
+        },
+        "transaction_id": "1ba78494-f6ee-4ba2-abe4-87593b9cf816"
+    },
+    "is_cached": false,
+    "date": "2025-12-12T17:34:02.518000Z",
+    "headers": {
+        "cache-control": [
+            "no-cache, private"
+        ],
+        "date": [
+            "Fri, 12 Dec 2025 17:34:02 GMT"
+        ],
+        "content-type": [
+            "application/json"
+        ],
+        "x-transaction-id": [
+            "1ba78494-f6ee-4ba2-abe4-87593b9cf816"
+        ]
+    },
+    "status": 200,
+    "duration": 29308,
+    "context": {
+        "user_agent": "axios/1.12.2",
+        "referrer": null,
+        "accept": "application/json, text/plain, */*",
+        "accept_language": null,
+        "user_id": 2776,
+        "delegation_id": 14,
+        "customer_id": 14,
+        "provider_id": 1364
+    },
+    "message": "No offers available",
+    "code": "NO_OFFERS_AVAILABLE"
+}

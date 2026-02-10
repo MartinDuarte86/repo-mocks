@@ -1,0 +1,35 @@
+{
+    "date": "2025-12-12T17:33:54.391000Z",
+    "origin": "maersk",
+    "path": "/offers/v2/offers/brand/maeu/departuredate/2025-12-12",
+    "method": "GET",
+    "full_url": "https://offers.api.maersk.com/offers/v2/offers/brand/maeu/departuredate/2025-12-12?containers=1x20DRYx17&originServiceMode=CY&destinationServiceMode=CY&includeOfferFilteredReasons=1&originRkstCode=CATOR&destinationRkstCode=AEDXB",
+    "domain": "offers.api.maersk.com",
+    "transaction_id": "6fb5c98a-79ce-4d96-a185-91020c14e2bd",
+    "request_id": "88b82175-bfed-4329-b6f2-edabc304df4c",
+    "query_params": {
+        "containers": "1x20DRYx17",
+        "originServiceMode": "CY",
+        "destinationServiceMode": "CY",
+        "includeOfferFilteredReasons": "1",
+        "originRkstCode": "CATOR",
+        "destinationRkstCode": "AEDXB"
+    },
+    "payload": [],
+    "headers": {
+        "User-Agent": "GuzzleHttp/7",
+        "Host": "offers.api.maersk.com",
+        "Authorization": "[ENCRYPTED:ZXlKcGRpSTZJbFZ3VFU1dlpVaFhaVlJTZFU1b01ERTBiRGc1Y1hjOVBTSXNJblpoYkhWbElqb2lNV2RqVTB4SFVXTkVkemxvZWt0YWRWTkhVWEY1WWl0TVIyRnlXSFo1Y0d4NFQzZ3ZVakkwTVVwNlNIUnNTRWszYkZBNVZtb3ZZV0ZNVFRocmVTczBjR2h0UkZSdFFUSmFVV2hHU25kbFRubzFVSHBHTWl0YU0wVldialpZVUM5NlZFZzJkalZOUm1kb09EUTlJaXdpYldGaklqb2labVEyTnpNMk5qQmhObVF6WlRKaVpUUXpZVEU0TkRVNE5USXdObUU1WlRGaE5UUmxNakZtWm1Jd05EaGhZems1WW1ObE9XRXdZelJqWWpNMU9HTmhPQ0lzSW5SaFp5STZJaUo5]",
+        "x-transaction-id": "6fb5c98a-79ce-4d96-a185-91020c14e2bd"
+    },
+    "context": {
+        "user_agent": "GuzzleHttp/7",
+        "content_type": null,
+        "accept": null,
+        "customer_id": 14,
+        "user_id": 2776,
+        "delegation_id": 14,
+        "provider_id": 1365
+    },
+    "ip": "172.31.33.193"
+}

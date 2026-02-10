@@ -1,0 +1,43 @@
+{
+    "transaction_id": "36b41ae9-7313-4312-8c87-fe50c179c8ec",
+    "request_id": "63d76f16-54ea-4464-9da2-985b436b3a42",
+    "response": {
+        "data": [],
+        "code": "BUSINESS_RULE_VIOLATION",
+        "reason": {
+            "message": "Offer provider class not found: App\\CarriersV3\\HapagSpot for provider quickquotesspot",
+            "provider_response": []
+        },
+        "transaction_id": "36b41ae9-7313-4312-8c87-fe50c179c8ec"
+    },
+    "is_cached": false,
+    "date": "2025-12-12T17:33:54.706000Z",
+    "headers": {
+        "cache-control": [
+            "no-cache, private"
+        ],
+        "date": [
+            "Fri, 12 Dec 2025 17:33:54 GMT"
+        ],
+        "content-type": [
+            "application/json"
+        ],
+        "x-transaction-id": [
+            "36b41ae9-7313-4312-8c87-fe50c179c8ec"
+        ]
+    },
+    "status": 400,
+    "duration": 19643,
+    "context": {
+        "user_agent": "axios/1.12.2",
+        "referrer": null,
+        "accept": "application/json, text/plain, */*",
+        "accept_language": null,
+        "user_id": 2776,
+        "delegation_id": 14,
+        "customer_id": 14,
+        "provider_id": 1373
+    },
+    "message": "Offer provider class not found: App\\CarriersV3\\HapagSpot for provider quickquotesspot",
+    "code": "BUSINESS_RULE_VIOLATION"
+}

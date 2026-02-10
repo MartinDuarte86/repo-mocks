@@ -1,0 +1,77 @@
+{
+    "date": "2025-12-14T00:00:10.771000Z",
+    "path": "/api/integration/offers",
+    "method": "GET",
+    "full_url": "http://coreapp-mushu-prod.cargofive.com/api/integration/offers?brands=quickquotes&departureDate=2025-12-14&destinationId=2027&equipmentSizeType=1x20DRYx15000%2C1x40DRYx15000&excludeDestination=1&excludeOrigin=1&imo=0&impersonate=0&originId=751&ow=0&search_id=429f1d0a-efa5-46e5-899c-d19ac9cb709a&uemail=sinan.vatansever%40weld-int.com",
+    "domain": "coreapp-mushu-prod.cargofive.com",
+    "transaction_id": "9a8dc93a-2d5a-405a-a289-1314625e45e0",
+    "request_id": "829f1fa1-68d0-45fe-9e6f-fec25f571398",
+    "query_params": {
+        "brands": "quickquotes",
+        "departureDate": "2025-12-14",
+        "imo": "0",
+        "ow": "0",
+        "impersonate": "0",
+        "excludeOrigin": "1",
+        "excludeDestination": "1",
+        "originId": "751",
+        "destinationId": "2027",
+        "uemail": "sinan.vatansever@weld-int.com",
+        "equipmentSizeType": "1x20DRYx15000,1x40DRYx15000",
+        "search_id": "429f1d0a-efa5-46e5-899c-d19ac9cb709a"
+    },
+    "body": [],
+    "context": {
+        "user_agent": "axios/1.12.2",
+        "referrer": null,
+        "accept": "application/json, text/plain, */*",
+        "accept_language": null,
+        "user_id": 2777,
+        "delegation_id": 327,
+        "customer_id": 175,
+        "provider_id": 1367
+    },
+    "headers": {
+        "accept-encoding": [
+            "gzip, compress, deflate, br"
+        ],
+        "user-agent": [
+            "axios/1.12.2"
+        ],
+        "accept": [
+            "application/json, text/plain, */*"
+        ],
+        "x-amzn-trace-id": [
+            "Root=1-693dfe0a-19a467f41b2d31376ee4ed84"
+        ],
+        "host": [
+            "coreapp-mushu-prod.cargofive.com"
+        ],
+        "x-forwarded-port": [
+            "443"
+        ],
+        "x-forwarded-proto": [
+            "https"
+        ],
+        "x-forwarded-for": [
+            "3.126.3.123"
+        ]
+    },
+    "ip": "172.31.27.109",
+    "user_id": 2777,
+    "delegation_id": 327,
+    "customer_id": 175,
+    "provider_id": 1367,
+    "qp_brands": "quickquotes",
+    "qp_departureDate": "2025-12-14",
+    "qp_imo": "0",
+    "qp_ow": "0",
+    "qp_impersonate": "0",
+    "qp_excludeOrigin": "1",
+    "qp_excludeDestination": "1",
+    "qp_originId": "751",
+    "qp_destinationId": "2027",
+    "qp_uemail": "sinan.vatansever@weld-int.com",
+    "qp_equipmentSizeType": "1x20DRYx15000,1x40DRYx15000",
+    "qp_search_id": "429f1d0a-efa5-46e5-899c-d19ac9cb709a"
+}

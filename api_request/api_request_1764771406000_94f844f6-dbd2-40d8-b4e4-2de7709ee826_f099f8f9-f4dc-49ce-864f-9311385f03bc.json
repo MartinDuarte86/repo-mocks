@@ -1,0 +1,74 @@
+{
+    "date": "2025-12-03T14:16:46.657000Z",
+    "path": "/api/integration/offers",
+    "method": "GET",
+    "full_url": "http://coreapp-mushu-staging.cargofive.com/api/integration/offers?brands=quickquotes&cacheRefresh=1&departureDate=2025-11-02&destinationId=120&equipmentSizeType=1x20DRYx15000%2C1x40DRYx15000&impersonate=1&originId=216&uemail=dcabanales%40gmail.com",
+    "domain": "coreapp-mushu-staging.cargofive.com",
+    "transaction_id": "94f844f6-dbd2-40d8-b4e4-2de7709ee826",
+    "request_id": "f099f8f9-f4dc-49ce-864f-9311385f03bc",
+    "query_params": {
+        "uemail": "dcabanales@gmail.com",
+        "cacheRefresh": "1",
+        "brands": "quickquotes",
+        "originId": "216",
+        "destinationId": "120",
+        "departureDate": "2025-11-02",
+        "equipmentSizeType": "1x20DRYx15000,1x40DRYx15000",
+        "impersonate": "1"
+    },
+    "body": {
+        "quote_id": 3207,
+        "pdf_url": "https://.../q-3207.pdf",
+        "customer_id": 5013,
+        "share_link": "https://.../quotes/3207"
+    },
+    "context": {
+        "user_agent": null,
+        "referrer": null,
+        "accept": "*/*",
+        "accept_language": null,
+        "user_id": 12,
+        "delegation_id": 1,
+        "customer_id": 1,
+        "provider_id": 1367
+    },
+    "headers": {
+        "accept": [
+            "*/*"
+        ],
+        "content-type": [
+            "application/json"
+        ],
+        "content-length": [
+            "123"
+        ],
+        "x-amzn-trace-id": [
+            "Root=1-6930464d-6bf43796214df12d7fcb5c91"
+        ],
+        "host": [
+            "coreapp-mushu-staging.cargofive.com"
+        ],
+        "x-forwarded-port": [
+            "80"
+        ],
+        "x-forwarded-proto": [
+            "http"
+        ],
+        "x-forwarded-for": [
+            "82.159.220.208"
+        ]
+    },
+    "ip": "172.31.3.79",
+    "user_id": 12,
+    "delegation_id": 1,
+    "customer_id": 1,
+    "provider_id": 1367,
+    "qp_uemail": "dcabanales@gmail.com",
+    "qp_cacheRefresh": "1",
+    "qp_brands": "quickquotes",
+    "qp_originId": "216",
+    "qp_destinationId": "120",
+    "qp_departureDate": "2025-11-02",
+    "qp_equipmentSizeType": "1x20DRYx15000,1x40DRYx15000",
+    "qp_impersonate": "1"
+}

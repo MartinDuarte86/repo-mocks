@@ -1,0 +1,29 @@
+{
+    "date": "2025-12-12T17:33:53.864000Z",
+    "origin": "cmaspoton",
+    "path": "/as/token.oauth2",
+    "method": "POST",
+    "full_url": "https://auth.cma-cgm.com/as/token.oauth2",
+    "domain": "auth.cma-cgm.com",
+    "transaction_id": "2c6448a6-e1df-4b30-8f26-d711f7864c46",
+    "request_id": "79b68a77-4389-4dc0-8d25-3a3f3cf6c6b3",
+    "query_params": [],
+    "payload": [],
+    "headers": {
+        "Content-Length": "142",
+        "User-Agent": "GuzzleHttp/7",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Host": "auth.cma-cgm.com",
+        "x-transaction-id": "2c6448a6-e1df-4b30-8f26-d711f7864c46"
+    },
+    "context": {
+        "user_agent": "GuzzleHttp/7",
+        "content_type": "application/x-www-form-urlencoded",
+        "accept": null,
+        "customer_id": 14,
+        "user_id": 2776,
+        "delegation_id": 14,
+        "provider_id": 1372
+    },
+    "ip": "172.31.31.187"
+}

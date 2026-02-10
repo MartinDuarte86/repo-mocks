@@ -1,0 +1,1 @@
+{"timestamp":"2026-01-20T11:19:45.509+00:00","status":500,"error":"Internal Server Error","message":"Problems calling Penny service to get offer prices","path":"/offers/v2/offers/brand/maeu/departuredate/2026-01-20","traceId":"8b6747e5db73e186"}

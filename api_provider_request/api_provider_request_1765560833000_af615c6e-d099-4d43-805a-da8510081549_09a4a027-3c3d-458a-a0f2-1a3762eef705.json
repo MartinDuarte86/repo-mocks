@@ -1,0 +1,39 @@
+{
+    "date": "2025-12-12T17:33:53.576000Z",
+    "origin": "evergreen",
+    "path": "/v2/auth",
+    "method": "POST",
+    "full_url": "https://api.bluextrade.com/v2/auth",
+    "domain": "api.bluextrade.com",
+    "transaction_id": "af615c6e-d099-4d43-805a-da8510081549",
+    "request_id": "09a4a027-3c3d-458a-a0f2-1a3762eef705",
+    "query_params": [],
+    "payload": {
+        "api_key": "[ENCRYPTED:ZXlKcGRpSTZJbmQyU0RCcU1UbHJkMWhrU2pSNFVUSnFaVzFwYlZFOVBTSXNJblpoYkhWbElqb2lVRFkyZG1KTVExSXpVMVJCVkdkS1pHSnVNa0ZQUjBwV1dHaFpTVmxoUTIxbWEwcFdjVUZzYzJaNU5EMGlMQ0p0WVdNaU9pSmtZVGs0Tmprek9UbGlZMlkxWkdFNVl6YzBNbUpsWmpJM056aGpPV1psTWpJd1pXUmlOamt4TTJZM09HRXpaVEE1TWpZeE5XWTBOamMyTWpaak5ETXhJaXdpZEdGbklqb2lJbjA9]",
+        "referral_user": "A-Customer",
+        "user_carrier_api_key": [
+            {
+                "carrier": "EGLV",
+                "id": "4piD3o9nQF5H9_XWSjkF",
+                "secret": "[ENCRYPTED:ZXlKcGRpSTZJakI2Y2xOVU1sRjJTR2huVTFGdU9IaFlXV2g0ZEdjOVBTSXNJblpoYkhWbElqb2lNVTVITVRCeVVFSXpkMDR6Tnk5MFEwcG1XVWxZZFRoNVdXcHFOSE5qZDFBNVRFOW9NeXRFZFVodk9GSkVkVTR3VkZFd1VVcHBWVTQwZFdsdlUzTmpRU0lzSW0xaFl5STZJamMyTjJWbU5tVXhPV1ZsTm1JeFpqRmxPR0l3Tm1ObVpUbGhZamxpTlRRMlpEYzJOelZsWVdZM1l6RTROamsxWmpaaU1ERTRNMkUyTWpaak1XVmlPV01pTENKMFlXY2lPaUlpZlE9PQ==]"
+            }
+        ]
+    },
+    "headers": {
+        "Content-Length": "189",
+        "User-Agent": "GuzzleHttp/7",
+        "Content-Type": "application/json",
+        "Host": "api.bluextrade.com",
+        "x-transaction-id": "af615c6e-d099-4d43-805a-da8510081549"
+    },
+    "context": {
+        "user_agent": "GuzzleHttp/7",
+        "content_type": "application/json",
+        "accept": null,
+        "customer_id": 14,
+        "user_id": 2776,
+        "delegation_id": 14,
+        "provider_id": 1366
+    },
+    "ip": "172.31.33.193"
+}

@@ -1,0 +1,73 @@
+{
+    "date": "2025-12-12T17:33:53.952000Z",
+    "origin": "quickquotes",
+    "path": "/quickquotes/v2",
+    "method": "POST",
+    "full_url": "https://providers-gateway-2.cargofive.com/quickquotes/v2",
+    "domain": "providers-gateway-2.cargofive.com",
+    "transaction_id": "5a789b88-602e-4acf-8be8-615d423b2fa6",
+    "request_id": "8a810c41-3702-4e55-a84a-bbd89adc5f57",
+    "query_params": [],
+    "payload": {
+        "routings": [
+            {
+                "relativeNumber": 1,
+                "startLocation": {
+                    "name": "MONTREAL, QC",
+                    "locode": "CAMTR",
+                    "haulage": "MERCHANT_HAULAGE",
+                    "postalCode": "H1N",
+                    "businessLocode": "CAMTR",
+                    "locationType": "STD",
+                    "country": "CA",
+                    "continent": "AM",
+                    "portType": "S"
+                },
+                "endLocation": {
+                    "name": "SHARJAH",
+                    "locode": "AESHJ",
+                    "haulage": "MERCHANT_HAULAGE",
+                    "postalCode": null,
+                    "businessLocode": "AESHJ",
+                    "locationType": "STD",
+                    "country": "AE",
+                    "continent": "AS",
+                    "portType": "S"
+                }
+            }
+        ],
+        "cargoDetails": {
+            "container": {
+                "containerType": "22GP",
+                "amount": 1,
+                "cargoWeightPerContainer": 20000,
+                "unitOfMeasure": "KG",
+                "shippersOwnedContainer": false
+            },
+            "commodityGroup": {
+                "name": "FAK - Freight all Kind",
+                "isHazardous": false
+            }
+        },
+        "validFrom": "2025-12-12"
+    },
+    "headers": {
+        "Content-Length": "668",
+        "User-Agent": "GuzzleHttp/7",
+        "Content-Type": "application/json",
+        "Host": "providers-gateway-2.cargofive.com",
+        "x-token": "eyJhbGciOiJSUzI1NiIsImtpZCI6InpaX3V5cWNMZEwtZFZSaTdkclRPbEZIMEctazJ2M2MtYnJ1bVJERVdwSVUiLCJ0eXAiOiJKV1QifQ.eyJleHAiOjE3NjU1Njk3NjEsIm5iZiI6MTc2NTU1ODk2MSwidmVyIjoiMS4wIiwiaXNzIjoiaHR0cHM6Ly9obGFnd2VicHJvZC5iMmNsb2dpbi5jb20vNjNkZjhlNzEtMDYxMi00OTMyLWE2ZGUtMmEwZjVhYTNjNzhjL3YyLjAvIiwic3ViIjoiVzcwNzk3NiIsImF1ZCI6IjY0ZDdhNDRiLTFjNWItNGI1Mi05ZmY5LTI1NGY3YWNkOGZjMCIsImFjciI6ImIyY18xYV9zaWdudXBfc2lnbmluIiwibm9uY2UiOiIwMTliMTM4My04ZTU5LTc2MjEtYTljZi02MTViYTJhYTQzYTAiLCJpYXQiOjE3NjU1NTg5NjEsImF1dGhfdGltZSI6MTc2NTU1ODk2MCwianRpIjoiODVhMmYxYmEtZDAxOS00MjI3LTlhNzktZjNiZjUxNDQ5NWNiIiwiZXh0ZW5zaW9uX1VJRCI6Ilc3MDc5NzYiLCJ0aWQiOiI2M2RmOGU3MS0wNjEyLTQ5MzItYTZkZS0yYTBmNWFhM2M3OGMiLCJwYXNzd29yZEV4cGlyZWQiOmZhbHNlfQ.LoWdQYMX8NntQIracYmVQpJGgJvJg9a9r2rGk3Qf0r2BbYyq-w1M4PC5RRkJsWNMYvcFT_Cj4sLZqsKpF8w6c6DKlzQeoivkoRpsGSoeD-2xQ4a06vNWbkAe0LjHgc3tnd3v0A1E9QRNCd89R4PYymi8rsxqM_8Wz9LC-pg1KluaIq_VTRSBfeVsOjrJnuMlAo1d-Kb11M8dZHaEMPg6CSO3DASetNck_1xIZYlQKJ_A4635AFGS-kH6Q3SuWGVrZjCY5D37UaloLV1D99trIDVk9-piLsLCfqYv2giaC6FXh_7X13_RnZn67CxKgkICKL88DZv_ARGrND7teRf11w",
+        "api-key": "[ENCRYPTED:ZXlKcGRpSTZJbTloU0ZGclZTODBaVzFpVjBZd2RtWnZlVTlaWlhjOVBTSXNJblpoYkhWbElqb2lVRU5IT0RkbGVWVnBjWE0wYXpSMk9HVTVjblJLWWpKMmNXTktZVkJ0U0M5dU5IbzVTbVJtY0ZKU09EUmlaa0ZIZDBSM09XVnRSakJCVjNOTFNXTlNRU0lzSW0xaFl5STZJbVJqT0RKaFl6WmtPVFl5WTJKaVpUazBOVEppTVdZMU5ERTBZVGN3TkRBMVkyUTFaREV5WXpjeU1UYzNNekl6TkRjNFlqTm1ZakZoWkRSaE1qVXlNellpTENKMFlXY2lPaUlpZlE9PQ==]",
+        "x-transaction-id": "5a789b88-602e-4acf-8be8-615d423b2fa6"
+    },
+    "context": {
+        "user_agent": "GuzzleHttp/7",
+        "content_type": "application/json",
+        "accept": null,
+        "customer_id": 14,
+        "user_id": 2776,
+        "delegation_id": 14,
+        "provider_id": 1367
+    },
+    "ip": "172.31.33.193"
+}

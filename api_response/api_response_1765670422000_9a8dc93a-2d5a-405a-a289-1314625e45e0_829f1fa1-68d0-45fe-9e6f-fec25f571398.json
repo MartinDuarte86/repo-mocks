@@ -1,0 +1,43 @@
+{
+    "transaction_id": "9a8dc93a-2d5a-405a-a289-1314625e45e0",
+    "request_id": "829f1fa1-68d0-45fe-9e6f-fec25f571398",
+    "response": {
+        "data": [],
+        "code": "OFFERS_FILTERED",
+        "reason": {
+            "message": "All offers were filtered due to empty reasons: Freight-Not-Available",
+            "provider_response": []
+        },
+        "transaction_id": "9a8dc93a-2d5a-405a-a289-1314625e45e0"
+    },
+    "is_cached": true,
+    "date": "2025-12-14T00:00:22.895000Z",
+    "headers": {
+        "cache-control": [
+            "no-cache, private"
+        ],
+        "date": [
+            "Sun, 14 Dec 2025 00:00:22 GMT"
+        ],
+        "content-type": [
+            "application/json"
+        ],
+        "x-transaction-id": [
+            "9a8dc93a-2d5a-405a-a289-1314625e45e0"
+        ]
+    },
+    "status": 200,
+    "duration": 12300,
+    "context": {
+        "user_agent": "axios/1.12.2",
+        "referrer": null,
+        "accept": "application/json, text/plain, */*",
+        "accept_language": null,
+        "user_id": 2777,
+        "delegation_id": 327,
+        "customer_id": 175,
+        "provider_id": 1367
+    },
+    "message": "All offers were filtered due to empty reasons: Freight-Not-Available",
+    "code": "OFFERS_FILTERED"
+}

@@ -1,0 +1,77 @@
+{
+    "date": "2025-12-03T15:22:28.037000Z",
+    "path": "/api/integration/offers",
+    "method": "GET",
+    "full_url": "http://coreapp-mushu-staging.cargofive.com/api/integration/offers?brands=cmaspoton&departureDate=2025-12-03&destinationId=120&equipmentSizeType=1x20DRYx15000%2C1x40DRYx15000%2C1x40HCx15000&excludeDestination=1&excludeOrigin=1&imo=0&impersonate=0&originId=204&ow=0&search_id=ae9db56b-b66a-4835-8233-2c9931859925&uemail=luis.avila%40cargofive.com",
+    "domain": "coreapp-mushu-staging.cargofive.com",
+    "transaction_id": "5582d2a8-02e9-44f5-8640-330912d94cf5",
+    "request_id": "2b4639d5-5d4c-4b5f-a24b-b7540cb3db02",
+    "query_params": {
+        "brands": "cmaspoton",
+        "departureDate": "2025-12-03",
+        "imo": "0",
+        "ow": "0",
+        "impersonate": "0",
+        "excludeOrigin": "1",
+        "excludeDestination": "1",
+        "originId": "204",
+        "destinationId": "120",
+        "uemail": "luis.avila@cargofive.com",
+        "equipmentSizeType": "1x20DRYx15000,1x40DRYx15000,1x40HCx15000",
+        "search_id": "ae9db56b-b66a-4835-8233-2c9931859925"
+    },
+    "body": [],
+    "context": {
+        "user_agent": "axios/1.12.2",
+        "referrer": null,
+        "accept": "application/json, text/plain, */*",
+        "accept_language": null,
+        "user_id": 5,
+        "delegation_id": 1,
+        "customer_id": 1,
+        "provider_id": 1372
+    },
+    "headers": {
+        "accept-encoding": [
+            "gzip, compress, deflate, br"
+        ],
+        "user-agent": [
+            "axios/1.12.2"
+        ],
+        "accept": [
+            "application/json, text/plain, */*"
+        ],
+        "x-amzn-trace-id": [
+            "Root=1-693055b3-688bff394ee7ea4b6a5392f6"
+        ],
+        "host": [
+            "coreapp-mushu-staging.cargofive.com"
+        ],
+        "x-forwarded-port": [
+            "80"
+        ],
+        "x-forwarded-proto": [
+            "http"
+        ],
+        "x-forwarded-for": [
+            "3.126.3.123"
+        ]
+    },
+    "ip": "172.31.16.180",
+    "user_id": 5,
+    "delegation_id": 1,
+    "customer_id": 1,
+    "provider_id": 1372,
+    "qp_brands": "cmaspoton",
+    "qp_departureDate": "2025-12-03",
+    "qp_imo": "0",
+    "qp_ow": "0",
+    "qp_impersonate": "0",
+    "qp_excludeOrigin": "1",
+    "qp_excludeDestination": "1",
+    "qp_originId": "204",
+    "qp_destinationId": "120",
+    "qp_uemail": "luis.avila@cargofive.com",
+    "qp_equipmentSizeType": "1x20DRYx15000,1x40DRYx15000,1x40HCx15000",
+    "qp_search_id": "ae9db56b-b66a-4835-8233-2c9931859925"
+}

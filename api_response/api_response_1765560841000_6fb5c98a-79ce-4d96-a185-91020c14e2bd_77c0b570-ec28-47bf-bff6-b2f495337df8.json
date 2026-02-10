@@ -1,0 +1,206 @@
+{
+    "transaction_id": "6fb5c98a-79ce-4d96-a185-91020c14e2bd",
+    "request_id": "77c0b570-ec28-47bf-bff6-b2f495337df8",
+    "response": {
+        "data": [],
+        "code": "NO_OFFERS_FROM_PROVIDER",
+        "reason": {
+            "message": "No offers returned from provider for the specified criteria",
+            "provider_response": {
+                "status": 200,
+                "url": "{https://offers.api.maersk.com/offers/v2/offers/brand/maeu/departuredate/2025-12-12}",
+                "requestBody": {
+                    "query": {
+                        "containers": "1x20DRYx17",
+                        "originServiceMode": "CY",
+                        "destinationServiceMode": "CY",
+                        "includeOfferFilteredReasons": true,
+                        "originRkstCode": "CATOR",
+                        "destinationRkstCode": "AEDXB"
+                    },
+                    "headers": {
+                        "Authorization": "[ENCRYPTED:ZXlKcGRpSTZJbFl2TDFsa1kyOHpibmc0Y1VOS1luZG9lbFJ3TjNjOVBTSXNJblpoYkhWbElqb2ljazU2UlRBMU1tbEhTRXRXT1Zsck9HRk9OMHBMUzBwVWNESTJLMUpTVlRWcVoxbGpNa3RKY25kR1VtUmFUbXhyV1Vnck5rMXVNRzlxYlhnMVNrOW1MMXBZT1RaRmRYUk5RblJKVUhaTlYwWnhRVlZJUVhwU1NVdDNUSEZxWTBsbVFXZElRVzlwYWtzM2R6QTlJaXdpYldGaklqb2laVGsxTnpObVl6SXdaR0ptWkRCa1pHRTNNakZpWkdKak1ERTJOekUzWldNelltUXpNR1ZtWW1JMVptVmpZamsyTWpsaU0yVmlOVEV4TkdJellUUXpZU0lzSW5SaFp5STZJaUo5]"
+                    }
+                },
+                "response": {
+                    "offers": [],
+                    "offerFilteredReasons": [
+                        {
+                            "traceId": "303bc308fb175386",
+                            "productCode": "MaerskSpot",
+                            "brandScac": "maeu",
+                            "routeCode": null,
+                            "originServiceMode": "CY",
+                            "destinationServiceMode": "CY",
+                            "origin": "CATOR",
+                            "originLabel": "Toronto Canada",
+                            "destination": "AEDXB",
+                            "destinationLabel": "Dubai United Arab Emirates",
+                            "vesselVoyages": null,
+                            "container": "[20DRY]",
+                            "departureDate": "2025-12-12",
+                            "departureWeek": 50,
+                            "detailedSchedule": "",
+                            "status": "NOT_ALLOWED",
+                            "type": "SCHEDULE",
+                            "reason": "No scheduled departure found for CATOR > AEDXB in week 50",
+                            "requestType": "Offers",
+                            "time": "2025-12-12T17:33:57.049350985",
+                            "cargoType": "DRY"
+                        },
+                        {
+                            "traceId": "303bc308fb175386",
+                            "productCode": "MaerskSpot",
+                            "brandScac": "maeu",
+                            "routeCode": null,
+                            "originServiceMode": "CY",
+                            "destinationServiceMode": "CY",
+                            "origin": "CATOR",
+                            "originLabel": "Toronto Canada",
+                            "destination": "AEDXB",
+                            "destinationLabel": "Dubai United Arab Emirates",
+                            "vesselVoyages": null,
+                            "container": "[20DRY]",
+                            "departureDate": "2025-12-19",
+                            "departureWeek": 51,
+                            "detailedSchedule": "",
+                            "status": "NOT_ALLOWED",
+                            "type": "SCHEDULE",
+                            "reason": "No scheduled departure found for CATOR > AEDXB in week 51",
+                            "requestType": "Offers",
+                            "time": "2025-12-12T17:33:57.050280893",
+                            "cargoType": "DRY"
+                        },
+                        {
+                            "traceId": "303bc308fb175386",
+                            "productCode": "MaerskSpot",
+                            "brandScac": "maeu",
+                            "routeCode": null,
+                            "originServiceMode": "CY",
+                            "destinationServiceMode": "CY",
+                            "origin": "CATOR",
+                            "originLabel": "Toronto Canada",
+                            "destination": "AEDXB",
+                            "destinationLabel": "Dubai United Arab Emirates",
+                            "vesselVoyages": null,
+                            "container": "[20DRY]",
+                            "departureDate": "2025-12-26",
+                            "departureWeek": 52,
+                            "detailedSchedule": "",
+                            "status": "NOT_ALLOWED",
+                            "type": "SCHEDULE",
+                            "reason": "No scheduled departure found for CATOR > AEDXB in week 52",
+                            "requestType": "Offers",
+                            "time": "2025-12-12T17:33:57.051438704",
+                            "cargoType": "DRY"
+                        },
+                        {
+                            "traceId": "303bc308fb175386",
+                            "productCode": "MaerskSpot",
+                            "brandScac": "maeu",
+                            "routeCode": null,
+                            "originServiceMode": "CY",
+                            "destinationServiceMode": "CY",
+                            "origin": "CATOR",
+                            "originLabel": "Toronto Canada",
+                            "destination": "AEDXB",
+                            "destinationLabel": "Dubai United Arab Emirates",
+                            "vesselVoyages": null,
+                            "container": "[20DRY]",
+                            "departureDate": "2026-01-02",
+                            "departureWeek": 1,
+                            "detailedSchedule": "",
+                            "status": "NOT_ALLOWED",
+                            "type": "SCHEDULE",
+                            "reason": "No scheduled departure found for CATOR > AEDXB in week 1",
+                            "requestType": "Offers",
+                            "time": "2025-12-12T17:33:57.052421713",
+                            "cargoType": "DRY"
+                        },
+                        {
+                            "traceId": "303bc308fb175386",
+                            "productCode": "MaerskSpot",
+                            "brandScac": "maeu",
+                            "routeCode": null,
+                            "originServiceMode": "CY",
+                            "destinationServiceMode": "CY",
+                            "origin": "CATOR",
+                            "originLabel": "Toronto Canada",
+                            "destination": "AEDXB",
+                            "destinationLabel": "Dubai United Arab Emirates",
+                            "vesselVoyages": null,
+                            "container": "[20DRY]",
+                            "departureDate": "2026-01-09",
+                            "departureWeek": 2,
+                            "detailedSchedule": "",
+                            "status": "NOT_ALLOWED",
+                            "type": "SCHEDULE",
+                            "reason": "No scheduled departure found for CATOR > AEDXB in week 2",
+                            "requestType": "Offers",
+                            "time": "2025-12-12T17:33:57.053445722",
+                            "cargoType": "DRY"
+                        },
+                        {
+                            "traceId": "303bc308fb175386",
+                            "productCode": "MaerskSpot",
+                            "brandScac": "maeu",
+                            "routeCode": null,
+                            "originServiceMode": "CY",
+                            "destinationServiceMode": "CY",
+                            "origin": "CATOR",
+                            "originLabel": "Toronto Canada",
+                            "destination": "AEDXB",
+                            "destinationLabel": "Dubai United Arab Emirates",
+                            "vesselVoyages": null,
+                            "container": "[20DRY]",
+                            "departureDate": "2026-01-16",
+                            "departureWeek": 3,
+                            "detailedSchedule": "",
+                            "status": "NOT_ALLOWED",
+                            "type": "SCHEDULE",
+                            "reason": "No scheduled departure found for CATOR > AEDXB in week 3",
+                            "requestType": "Offers",
+                            "time": "2025-12-12T17:33:57.054436232",
+                            "cargoType": "DRY"
+                        }
+                    ],
+                    "spotScope": {
+                        "spotSupported": true,
+                        "spotOnlyAllowedFreesale": false
+                    }
+                }
+            }
+        },
+        "transaction_id": "6fb5c98a-79ce-4d96-a185-91020c14e2bd"
+    },
+    "is_cached": false,
+    "date": "2025-12-12T17:34:01.371000Z",
+    "headers": {
+        "cache-control": [
+            "no-cache, private"
+        ],
+        "date": [
+            "Fri, 12 Dec 2025 17:34:01 GMT"
+        ],
+        "content-type": [
+            "application/json"
+        ],
+        "x-transaction-id": [
+            "6fb5c98a-79ce-4d96-a185-91020c14e2bd"
+        ]
+    },
+    "status": 200,
+    "duration": 27128,
+    "context": {
+        "user_agent": "axios/1.12.2",
+        "referrer": null,
+        "accept": "application/json, text/plain, */*",
+        "accept_language": null,
+        "user_id": 2776,
+        "delegation_id": 14,
+        "customer_id": 14,
+        "provider_id": 1365
+    },
+    "message": "No offers returned from provider for the specified criteria",
+    "code": "NO_OFFERS_FROM_PROVIDER"
+}

@@ -1,0 +1,43 @@
+{
+    "transaction_id": "8d5de96f-61cc-440a-a89e-d8c22aac037e",
+    "request_id": "811161a5-09b0-42d0-8de6-e114e075cc1e",
+    "response": {
+        "data": [],
+        "code": "TOKEN_NOT_AVAILABLE",
+        "reason": {
+            "message": "Token not available for this customer: BSM FORWARDING SA DE CV",
+            "provider_response": []
+        },
+        "transaction_id": "8d5de96f-61cc-440a-a89e-d8c22aac037e"
+    },
+    "is_cached": false,
+    "date": "2025-12-13T00:18:29.710000Z",
+    "headers": {
+        "cache-control": [
+            "no-cache, private"
+        ],
+        "date": [
+            "Sat, 13 Dec 2025 00:18:29 GMT"
+        ],
+        "content-type": [
+            "application/json"
+        ],
+        "x-transaction-id": [
+            "8d5de96f-61cc-440a-a89e-d8c22aac037e"
+        ]
+    },
+    "status": 403,
+    "duration": 5355,
+    "context": {
+        "user_agent": "axios/1.12.2",
+        "referrer": null,
+        "accept": "application/json, text/plain, */*",
+        "accept_language": null,
+        "user_id": 1881,
+        "delegation_id": 56,
+        "customer_id": 56,
+        "provider_id": 1369
+    },
+    "message": "Token not available for this customer: BSM FORWARDING SA DE CV",
+    "code": "TOKEN_NOT_AVAILABLE"
+}
